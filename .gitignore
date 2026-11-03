@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+
+# Generated checkpoints
+checkpoints/*.pth
+checkpoints/*.pt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
